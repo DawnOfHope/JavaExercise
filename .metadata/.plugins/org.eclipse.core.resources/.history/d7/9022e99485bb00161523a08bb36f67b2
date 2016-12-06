@@ -1,0 +1,19 @@
+//車子類別
+
+class car{
+	int num;
+	double gas;
+	
+	void show(){//這是方法method
+		System.out.println("車號是" + num + "！");
+		System.out.println("汽油量是" + gas + "！！");
+	}
+	void showCar(){
+		System.out.println("開始顯示車子的資料。");
+		show();
+	}
+}
+
+public class sample5 {
+
+}

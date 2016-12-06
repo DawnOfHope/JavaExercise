@@ -1,0 +1,29 @@
+//在類別宣告的內部呼叫方法
+
+//車子類別
+
+class Car{
+	int num;
+	double gas;
+	
+	void show(){//這是方法method
+		System.out.println("車號是" + num + "！");
+		System.out.println("汽油量是" + gas + "！！");
+	}
+	void showCar(){
+		System.out.println("開始顯示車子的資料。");
+		//show();//表示呼叫「事件本身」的方法的意思
+		this.show();//由於是呼叫事件本身，所以前面亦可加上this
+	}
+}
+
+public class sample5 {
+	public static void main(String[] args){
+		Car car1 = new Car();
+		car1.num = 5566;
+		car1.gas = 20.5;
+		
+		car1.showCar();//這表示呼叫car1的方法的意思
+	}
+
+}

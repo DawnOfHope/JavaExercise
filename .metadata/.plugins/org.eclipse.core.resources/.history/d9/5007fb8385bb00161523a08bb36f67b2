@@ -1,0 +1,12 @@
+//車子類別
+
+class car{
+	int num;
+	double gas;
+	
+	
+}
+
+public class sample5 {
+
+}
