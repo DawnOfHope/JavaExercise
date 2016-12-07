@@ -1,0 +1,7 @@
+//操作字串的類別＿取得字串的長度和其中的字元
+public class sample9 {
+	public static void main(String[] args){
+		
+	}
+
+}

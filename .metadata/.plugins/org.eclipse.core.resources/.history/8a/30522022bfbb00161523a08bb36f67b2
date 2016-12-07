@@ -1,0 +1,31 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+//操作字串的類別＿收尋文字/更改其中內容
+public class sample11 {
+	public static void main(String[] args) throws IOException{
+		//String str = "Hello!!";
+		System.out.print("請輸入任何文字\n");//提示使用者從鍵盤輸入字串
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		String str = br.readLine();
+		
+		System.out.println("請輸入要檢索的字");
+		
+		String str1 = br.readLine();
+		char ch = str1.charAt(0);
+		
+		int num = str.indexOf(ch);//收尋文字
+		
+		
+		if(num != -1){
+			System.out.println(str + "的第" +(num+1) + "個字就是" + ch); 
+			
+		}else{
+			System.out.println(str + "中沒有" + ch + "這個字");
+		}
+	}
+
+}
