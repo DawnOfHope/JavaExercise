@@ -1,0 +1,8 @@
+//如何存取和父成員名稱相同的成員資料
+class Num{
+	int x;//在父類別中有x
+}
+
+public class sample03 {
+
+}

@@ -1,0 +1,28 @@
+//關於類別的繼承＿延伸extends
+
+//車子的類別＿既有的類別
+class Car{//父類別的宣告
+	private int num;
+	private double gas;
+	public Car(){
+		num = 0;
+		gas = 0.0;
+		System.out.println("生產車車");
+	}
+	public void setCar(int n,double g){
+		num = n;
+		gas = g;
+		System.out.println("將車號設定為：" + num + "，汽油量：" + gas );
+		
+	}
+	
+}
+//賽車的類別＿“新”的類別
+
+//新增的性質與功能
+
+
+public class sample01 {
+	
+
+}

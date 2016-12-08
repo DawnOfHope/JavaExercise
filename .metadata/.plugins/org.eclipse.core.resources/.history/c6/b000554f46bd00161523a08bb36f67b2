@@ -1,0 +1,26 @@
+//如何存取和父成員名稱相同的成員資料
+class Num{
+	int x;//在父類別中有x
+}
+
+class RacingNum extends Num{
+	int x;//子類別也有x
+	
+	public void show(){
+		x = 10;
+		super.x = 20 ;
+	}
+}
+
+public class sample03 {
+	public static void main(String[] args){
+		RacingNum racNum = new RacingNum();
+		racNum.show();
+		
+	}
+
+	
+	
+	
+
+}
