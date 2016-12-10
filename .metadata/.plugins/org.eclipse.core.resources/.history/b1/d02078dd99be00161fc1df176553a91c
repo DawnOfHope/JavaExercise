@@ -1,0 +1,29 @@
+//使用抽象類別
+
+//交通工具類別
+abstract  class Vehicle{//這是抽象類別
+	protected int speed;
+	public void setSpeed(int s){
+		speed = s;
+		System.out.println("將速度設定為：" + speed);
+	}
+	abstract void show();//這是抽象方法show()
+}
+
+//車車類別
+class BZCar extends Vehicle{//延伸抽象類別
+	private int num;
+	private double gas;
+	public BZCar(int n,double g){
+		System.out.println("" + num + "" + gas);
+	}
+	public void show(){
+		
+	}
+	
+}
+
+
+public class sample04 {
+
+}
