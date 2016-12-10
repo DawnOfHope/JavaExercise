@@ -1,0 +1,6 @@
+//從檔案讀入資料
+public class sample07 {
+	public static void main(String[] args){
+		
+	}
+}
