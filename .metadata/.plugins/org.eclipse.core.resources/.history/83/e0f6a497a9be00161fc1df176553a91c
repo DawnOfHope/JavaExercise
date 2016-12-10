@@ -1,0 +1,17 @@
+//例外處理
+public class sample05 {
+	public static void main(String[] args){
+		try{//指定檢查是否發生例外的部分
+			int[] test = new int[5];
+			System.out.println("將值指定給test[10]");
+			
+			test[10] = 80;//只要發生超過陣列元素的例外
+			System.out.println("將80指定給test[10]");
+			
+			
+		}catch(ArrayIndexOutOfBoundsException e){
+			System.out.println("超過範圍");
+		}
+		System.out.println("執行完畢");
+	}
+}

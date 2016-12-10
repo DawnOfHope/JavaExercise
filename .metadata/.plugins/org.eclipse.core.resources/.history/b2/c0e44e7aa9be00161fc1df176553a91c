@@ -1,0 +1,10 @@
+//例外處理
+public class sample05 {
+	public static void main(String[] args){
+		try{
+			
+		}catch(ArrayIndexOutOfBoundsException e){
+			
+		}
+	}
+}

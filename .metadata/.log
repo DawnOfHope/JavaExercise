@@ -755,3 +755,9 @@ Binding(ALT+COMMAND+Q P,
 
 !ENTRY org.eclipse.jface.text 2 0 2016-12-10 13:27:54.728
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-12-10 15:10:39.455
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-12-10 15:10:39.457
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
