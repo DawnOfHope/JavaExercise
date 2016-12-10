@@ -1,0 +1,12 @@
+import java.io.IOException;
+
+//將資料輸入到指定檔案
+public class sample06 {
+	public static void main(String[] args){
+		try{
+			
+		}catch(IOException e){
+			
+		}
+	}
+}
