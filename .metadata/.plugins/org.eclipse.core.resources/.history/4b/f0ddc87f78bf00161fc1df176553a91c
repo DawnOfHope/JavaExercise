@@ -1,0 +1,25 @@
+//執行緒的基礎知識＿啟動執行緒
+class smallCar extends Thread{
+	private String name;
+	public smallCar(String nm){
+		name = nm;
+	}
+	public void run(){
+		for(int i=0 ; i<5 ; i++){
+			System.out.println("正在進行" + name + "的處理工作");
+		}
+	}
+}
+
+
+public class sample08 {
+	public static void main(String[] args){
+		smallCar sc1 = new smallCar("第一台車車");
+		sc1.run();
+		
+		for(int i=0 ; i<5 ; i++){
+			System.out.println("正在進行main()");
+		}
+	}
+
+}
